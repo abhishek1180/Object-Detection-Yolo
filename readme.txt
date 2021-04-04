@@ -1,0 +1,3 @@
+For video classification, we will need some file contaning all names that can tell all possible names for any object seen in video.(bvlc_googlenet.caffemodel, bvlc_googlenet.prototxt,synset_word)
+
+For object classification, we use YOLOv3. The neural network divides the image into regions and predicts bounding boxes and probabilities for each region. The network only needs to view the image one time, and then the bounding boxes are weighted by the predictive probabilities and we set thresholds for number of object detection. As we will need some file that can describe object names by seeing it in video. We also need the config and weight files into the Darknet architecture.(coco.names,yolov3.cfg,yolov3.weights)
